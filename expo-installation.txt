@@ -1,0 +1,9 @@
+#! /bin/bash
+
+npm install --global expo-cli
+npm install --global create-expo-app
+
+npx create-expo-app --template (Selected "Navigation (TypeScript)" option)
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+npx expo start
